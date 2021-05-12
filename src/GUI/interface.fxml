@@ -19,7 +19,7 @@
             <Font name="Bookshelf Symbol 7" size="32.0" />
          </font>
       </Text>
-      <Button layoutX="630.0" layoutY="342.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="164.0" text="TEST" textFill="#e4ce08">
+      <Button fx:id="test" layoutX="630.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="77.0" prefWidth="164.0" text="TEST" textFill="#e4ce08">
          <font>
             <Font name="Cambria Bold Italic" size="37.0" />
          </font>

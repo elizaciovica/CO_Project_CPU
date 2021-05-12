@@ -10,7 +10,7 @@ import logging.TimeUnit;
 
 
 public class TestCPUDigitsOfPi {
-    public static void main(String[] args) {
+    public void method() {
         ITimer timer = new Timer();
         ILogger log = new ConsoleLogger();
         IBenchmark benchmark = new CPUDigitsOfPi();
