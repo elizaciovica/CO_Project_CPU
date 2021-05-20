@@ -28,7 +28,7 @@ public class CPUDigitsOfPi implements IBenchmark {
                 this.Spigot_algorithm();
                 break;
             default:
-                throw new IllegalArgumentException("Option must be 0 or 1!");
+                throw new IllegalArgumentException(" Option must be 0 or 1!");
         }
 
     }

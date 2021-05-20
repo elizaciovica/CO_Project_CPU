@@ -18,6 +18,7 @@ public class TestCPUDigitsOfPi {
         IBenchmark benchmark = new CPUDigitsOfPi();
         benchmark.initialize(1000);
         benchmark.warmUp();
+
         timer.start();
         benchmark.run(1);
         long time = timer.stop();
