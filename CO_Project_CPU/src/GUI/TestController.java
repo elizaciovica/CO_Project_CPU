@@ -19,10 +19,17 @@ public class TestController {
     private TextArea testfinal;
     @FXML
     private Button set;
-
+    @FXML
+    private Button exit;
 
     public void setOnAction(ActionEvent event){
-        testfinal.setText(Main.alo+"\n"+Main.alo2);
+        testfinal.setText("CPU DIGITS OF PI TESTING "+Main.alo+"\n"+"CPU PRIME NUMBER TESTING x50000 "+Main.alo3);
+    }
+    public void exitButtonOnAction(ActionEvent event){
+
+        Stage stage = (Stage) exit.getScene().getWindow();
+        stage.close();
+
     }
 
 }

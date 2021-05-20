@@ -1,3 +1,4 @@
+
 package testbench;
 
 import GUI.Main;
@@ -21,8 +22,8 @@ public class TestCPUDigitsOfPi {
         benchmark.run(0);
         long time = timer.stop();
         log.write("Finished in", TimeUnit.convert(time, TimeUnit.Milli) + "ms");
-         Main.alo ="Finished in "+ TimeUnit.convert(time, TimeUnit.Milli) + "ms";
-         System.out.println(Main.alo);
+        Main.alo ="Finished in "+ TimeUnit.convert(time, TimeUnit.Milli) + "ms";
+        System.out.println(Main.alo);
         log.write(benchmark.getClass());
 
         benchmark.clean();

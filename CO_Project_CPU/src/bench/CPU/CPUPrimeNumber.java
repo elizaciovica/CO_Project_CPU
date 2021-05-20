@@ -8,17 +8,7 @@ import java.math.RoundingMode;
 
 public class CPUPrimeNumber implements IBenchmark {
     private int result;
-    private boolean running;
-
-    @Override
-    public void initialize(Object... params) {
-        this.result = 0;
-    }
-
-    @Override
-    public void warmUp() {
-        this.run(10000);
-    }
+    private int no_of_digits;
 
     @Override
     public void run() {
@@ -31,9 +21,23 @@ public class CPUPrimeNumber implements IBenchmark {
         this.result=0;
 
         for (int i=1; i<size;i++)
-            if (isPrime(i)) result++;
+            if (isPrime(i)) {
+                result++;
+            }
     }
 
+    @Override
+    public void initialize(Object... objects) {
+        if (objects[0] instanceof Integer) {
+            this.no_of_digits = ((Integer) objects[0]).intValue();
+        }
+
+    }
+
+    @Override
+    public void clean() {
+
+    }
 
     @Override
     public void cancel() {
@@ -41,7 +45,7 @@ public class CPUPrimeNumber implements IBenchmark {
     }
 
     @Override
-    public void clean() {
+    public void warmUp() {
 
     }
 

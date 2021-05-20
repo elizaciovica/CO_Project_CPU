@@ -12,6 +12,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
 import javafx.stage.StageStyle;
+import testbench.TestCPUPrimeNumber;
 
 
 public class Interface2 {
@@ -21,6 +22,8 @@ public class Interface2 {
     public void handleButton(ActionEvent event) {
         TestCPUDigitsOfPi cpu = new TestCPUDigitsOfPi();
        cpu.method();
+        TestCPUPrimeNumber cpu2 = new TestCPUPrimeNumber();
+        cpu2.method1();
         try{
 
             Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
