@@ -1,10 +1,10 @@
 
 package testbench;
 
+import GUI.Main;
 import bench.CPU.CPUDigitsOfPi;
 import bench.IBenchmark;
 import logging.ConsoleLogger;
-import logging.FileLogger;
 import logging.ILogger;
 import timing.ITimer;
 import timing.Timer;
@@ -13,17 +13,17 @@ import logging.TimeUnit;
 
 public class TestCPUDigitsOfPi {
     public void method() {
+
         ITimer timer = new Timer();
-        //put here the path in your pc
-        ILogger log = new FileLogger("D:\\an2CTIeng\\semII\\CO\\CO_Project_CPU\\Output.txt\\"   );
+        ILogger log = new ConsoleLogger();
         IBenchmark benchmark = new CPUDigitsOfPi();
         benchmark.initialize(1000);
-        benchmark.warmUp();
-
         timer.start();
-        benchmark.run(1);
+        benchmark.run(0);
         long time = timer.stop();
         log.write("Finished in", TimeUnit.convert(time, TimeUnit.Milli) + "ms");
+        Main.alo ="Finished in "+ TimeUnit.convert(time, TimeUnit.Milli) + "ms";
+        System.out.println(Main.alo);
         log.write(benchmark.getClass());
 
         benchmark.clean();
