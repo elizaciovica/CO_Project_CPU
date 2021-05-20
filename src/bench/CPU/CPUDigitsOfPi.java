@@ -1,5 +1,6 @@
 package bench.CPU;
 
+import GUI.Main;
 import bench.IBenchmark;
 
 import java.math.BigDecimal;
@@ -64,6 +65,8 @@ public class CPUDigitsOfPi implements IBenchmark {
             pi = pi.add(a.multiply(b));
         }
         System.out.println("PI: " + pi);
+
+
 
     }
 }
