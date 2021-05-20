@@ -15,6 +15,7 @@ public class DummyBench implements IBenchmark {
         timer.start();
         bench.run();
         log.write("Finished in ", timer.stop(), "ns");
+
         log.close();
 
     }
