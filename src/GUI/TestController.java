@@ -21,13 +21,18 @@ public class TestController {
     private Button set;
     @FXML
     private Button exit;
+    int [] myarray = new int[20000];
+
 
     public void setOnAction(ActionEvent event){
-        testfinal.setText("CPU DIGITS OF PI TESTING "+Main.str_pi+"\n"+"CPU PRIME NUMBER TESTING x50000 "+Main.str_prime+"\n"+"CPU THREADED ROOTS "+Main.str_root+"\n"+"\n"+"\n"+"Your score is "+Main.score);
+
+        int i,j,n=20000,a,k=0;
+
+        testfinal.setText("CPU DIGITS OF PI TESTING "+Main.str_pi+"\n"+"CPU PRIME NUMBER TESTING x50000 "+Main.str_prime+"\n"+"CPU THREADED ROOTS "+Main.str_root+"\n"+"CPU FIXED POINT "+Main.str_fixed+"\n"+"\n"+"\n"+"Your score is "+Main.score+"\n");
 
     }
     public void exitButtonOnAction(ActionEvent event){
-
+        Main.score = 0;
         Stage stage = (Stage) exit.getScene().getWindow();
         stage.close();
 

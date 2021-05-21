@@ -10,6 +10,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
 import javafx.stage.StageStyle;
+import testbench.TestCPUFixedPoint;
 import testbench.TestCPUPrimeNumber;
 import testbench.TestCPUThreadRoots;
 import testbench.TestCPUDigitsOfPi;
@@ -25,6 +26,8 @@ public class Interface2 {
         cpu2.method1();
         TestCPUThreadRoots cpu3 = new TestCPUThreadRoots();
         cpu3.method2();
+        TestCPUFixedPoint cpu4 = new TestCPUFixedPoint();
+        cpu4.method4();
         try{
 
             Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
