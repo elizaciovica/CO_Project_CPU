@@ -1,35 +1,31 @@
-
 package testbench;
 
 import GUI.Main;
-import bench.CPU.CPUDigitsOfPi;
+import bench.CPU.CPUThreadedRoots;
 import bench.IBenchmark;
 import logging.ConsoleLogger;
 import logging.ILogger;
+import logging.TimeUnit;
 import timing.ITimer;
 import timing.Timer;
-import logging.TimeUnit;
 
-
-public class TestCPUDigitsOfPi {
-    public void method() {
-
+public class TestCPUThreadRoots {
+    public void method2() {
+        int nThreads = Runtime.getRuntime().availableProcessors();
         ITimer timer = new Timer();
         ILogger log = new ConsoleLogger();
-        IBenchmark benchmark = new CPUDigitsOfPi();
-        benchmark.initialize(1000);
+        IBenchmark benchmark = new CPUThreadedRoots();
+        benchmark.initialize(1000000);
         timer.start();
-        benchmark.run(0);
+        benchmark.run(nThreads);
         long time = timer.stop();
         log.write("Finished in", TimeUnit.convert(time, TimeUnit.Milli) + " ms");
-        Main.str_pi ="finished in "+ TimeUnit.convert(time, TimeUnit.Milli) + " ms";
+        Main.str_root = "finished in " + TimeUnit.convert(time, TimeUnit.Milli) + " ms";
         Main.score += TimeUnit.convert(time, TimeUnit.Milli);
-        System.out.println(Main.str_pi);
+        System.out.println(Main.str_root);
         log.write(benchmark.getClass());
 
         benchmark.clean();
         log.close();
-
-
     }
 }

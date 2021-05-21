@@ -23,7 +23,8 @@ public class TestController {
     private Button exit;
 
     public void setOnAction(ActionEvent event){
-        testfinal.setText("CPU DIGITS OF PI TESTING "+Main.alo+"\n"+"CPU PRIME NUMBER TESTING x50000 "+Main.alo3);
+        testfinal.setText("CPU DIGITS OF PI TESTING "+Main.str_pi+"\n"+"CPU PRIME NUMBER TESTING x50000 "+Main.str_prime+"\n"+"CPU THREADED ROOTS "+Main.str_root+"\n"+"\n"+"\n"+"Your score is "+Main.score);
+
     }
     public void exitButtonOnAction(ActionEvent event){
 

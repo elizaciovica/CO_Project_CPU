@@ -20,10 +20,11 @@ public class TestCPUPrimeNumber{
             timer.start();
             benchmark.run(50000);
             long time = timer.stop();
-            log.write("Finished in ", TimeUnit.convert(time, TimeUnit.Milli) + "ms");
-            Main.alo3 = "Finished in " + TimeUnit.convert(time, TimeUnit.Milli) + "ms";
+            log.write("Finished in ", TimeUnit.convert(time, TimeUnit.Milli) + " ms");
+            Main.str_prime = "finished in " + TimeUnit.convert(time, TimeUnit.Milli) + " ms";
+            Main.score += TimeUnit.convert(time, TimeUnit.Milli);
 
-        System.out.println(Main.alo3);
+        System.out.println(Main.str_prime);
         log.write(benchmark.getClass());
 
         benchmark.clean();

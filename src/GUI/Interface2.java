@@ -1,7 +1,5 @@
 package GUI;
 
-import testbench.TestCPUDigitsOfPi;
-
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -13,7 +11,8 @@ import javafx.fxml.FXML;
 
 import javafx.stage.StageStyle;
 import testbench.TestCPUPrimeNumber;
-
+import testbench.TestCPUThreadRoots;
+import testbench.TestCPUDigitsOfPi;
 
 public class Interface2 {
     @FXML
@@ -21,9 +20,11 @@ public class Interface2 {
 
     public void handleButton(ActionEvent event) {
         TestCPUDigitsOfPi cpu = new TestCPUDigitsOfPi();
-       cpu.method();
+        cpu.method();
         TestCPUPrimeNumber cpu2 = new TestCPUPrimeNumber();
         cpu2.method1();
+        TestCPUThreadRoots cpu3 = new TestCPUThreadRoots();
+        cpu3.method2();
         try{
 
             Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
