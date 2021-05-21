@@ -17,37 +17,37 @@
             <Image url="@pozasmecheracuCPU.jpg" />
          </image>
       </ImageView>
-      <Polygon layoutX="89.0" layoutY="74.0" opacity="0.4" points="-89.0, -74.0, 734.0, 129.0, 734.0, -74.0" stroke="BLACK" strokeType="INSIDE" />
-      <Label layoutX="593.0" layoutY="14.0" text="CPU" textFill="#6d7df8">
+      <Polygon layoutX="89.0" layoutY="74.0" opacity="0.4" points="-89.0, -74.0, 734.0, 64.0, 734.0, -74.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="612.0" layoutY="8.0" text="CPU" textFill="#969bff">
          <font>
             <Font name="Verdana" size="48.0" />
          </font>
       </Label>
-      <Label layoutX="669.0" layoutY="71.0" text="Testing" textFill="#566aff">
+      <Label layoutX="703.0" layoutY="45.0" text="Testing" textFill="#969bff">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <Button fx:id="text" layoutX="26.0" layoutY="77.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="94.0" prefWidth="181.0" style="-fx-background-color: #000000;" text="Test" textFill="#969bff">
+      <Button fx:id="text" layoutX="43.0" layoutY="40.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="94.0" prefWidth="181.0" style="-fx-background-color: #000000;" text="Test" textFill="#969bff">
          <font>
             <Font size="36.0" />
          </font>
          <effect>
-            <DropShadow blurType="GAUSSIAN" height="37.31" radius="21.490000000000002" width="50.65">
+            <DropShadow blurType="GAUSSIAN" height="43.98" radius="23.1575" width="50.65">
                <color>
-                  <Color red="0.4583333432674408" green="0.49444442987442017" blue="1.0" />
+                  <Color red="0.5882353186607361" green="0.6078431606292725" blue="1.0" />
                </color>
             </DropShadow>
          </effect>
       </Button>
-      <Button fx:id="exit" layoutX="612.0" layoutY="329.0" mnemonicParsing="false" onAction="#exitButtonOnAction" prefHeight="94.0" prefWidth="181.0" style="-fx-background-color: #000000;" text="Exit" textFill="#969bff">
+      <Button fx:id="exit" layoutX="604.0" layoutY="318.0" mnemonicParsing="false" onAction="#exitButtonOnAction" prefHeight="94.0" prefWidth="181.0" style="-fx-background-color: #000000;" text="Exit" textFill="#969bff">
          <font>
             <Font size="36.0" />
          </font>
          <effect>
-            <DropShadow blurType="GAUSSIAN" height="37.31" radius="21.490000000000002" width="50.65">
+            <DropShadow blurType="GAUSSIAN" height="43.98" radius="23.1575" width="50.65">
                <color>
-                  <Color red="0.4583333432674408" green="0.49444442987442017" blue="1.0" />
+                  <Color red="0.5882353186607361" green="0.6078431606292725" blue="1.0" />
                </color>
             </DropShadow>
          </effect>

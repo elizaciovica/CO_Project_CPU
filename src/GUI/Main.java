@@ -13,9 +13,10 @@ import testbench.*;
 public class Main extends Application {
 
     //public Button test;
-    public static String alo;
-
-    public static String alo3;
+    public static String str_pi;
+    public static String str_prime;
+    public static String str_root;
+    public static int score;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -30,7 +31,8 @@ public class Main extends Application {
        cpu.method();
        TestCPUPrimeNumber cpu2 = new TestCPUPrimeNumber();
        cpu2.method1();
-
+       TestCPUThreadRoots cpu3 = new TestCPUThreadRoots();
+       cpu3.method2();
 
     }
 

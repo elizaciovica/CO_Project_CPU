@@ -2,42 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5865b13-4a5b-4a59-b202-b05ccc931a77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CO_Project_CPU.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CO_Project_CPU/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/GUI/Interface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/GUI/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/GUI/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/GUI/interface.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/GUI/interface2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/GUI/pozasmecheracuCPU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/GUI/test.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/bench/CPU/CPUDigitsOfPi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/bench/CPU/CPUPrimeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/bench/DummyBench.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/bench/IBenchmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/logging/ConsoleLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/logging/FileLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/logging/ILogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/logging/TimeUnit$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/logging/TimeUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/testbench/InitialyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/testbench/TestCPUDigitsOfPi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/testbench/TestCPUPrimeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/timing/ITimer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CO_Project_CPU/timing/Timer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Interface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Interface2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/interface2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/interface2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/test.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/test.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/Interface2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/Interface2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/interface2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/interface2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/test.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO_Project_CPU/GUI/test.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO_Project_CPU/testbench/TestCPUDigitsOfPi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO_Project_CPU/testbench/TestCPUDigitsOfPi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO_Project_CPU/testbench/TestCPUPrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO_Project_CPU/testbench/TestCPUPrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testbench/TestCPUDigitsOfPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/testbench/TestCPUDigitsOfPi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testbench/TestCPUPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/testbench/TestCPUPrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,12 +43,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bench.CPU" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -97,11 +95,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621553732491</updated>
-      <workItem from="1621553733834" duration="13000" />
+      <workItem from="1621553733834" duration="8797000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
