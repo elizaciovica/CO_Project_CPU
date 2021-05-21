@@ -16,6 +16,7 @@ public class Main extends Application {
     public static String str_pi;
     public static String str_prime;
     public static String str_root;
+    public static String str_fixed;
     public static int score;
 
     @Override
@@ -33,6 +34,8 @@ public class Main extends Application {
        cpu2.method1();
        TestCPUThreadRoots cpu3 = new TestCPUThreadRoots();
        cpu3.method2();
+       TestCPUFixedPoint cpu4 = new TestCPUFixedPoint();
+       cpu4.method4();
 
     }
 
